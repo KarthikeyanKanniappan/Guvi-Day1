@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Joan&family=Montserrat:wght@100;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: #b1bce6;
+        font-family: "Joan", serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Difference between HTTP1.1 vs HTTP2</h1>
+    <div class="abouthttp">
+      <h2>HTTP</h2>
+      <ul>
+        <li>
+          HTTP, which stands for Hypertext Transfer Protocol, saw wide adoption
+          in the early 1990s to facilitate this, transferring “hypertext”
+          documents.
+        </li>
+        <br />
+        <li>
+          This version was elegant and simple for the needs of the mid-90s web –
+          make a connection, download a file, close the connection, and repeat
+          for each file needed to display a web page.
+        </li>
+        <br />
+        <li>
+          The web was rapidly evolving and people wanted to watch videos and
+          edit documents from their browsers.one file was quite slow for these
+          new use-cases.
+        </li>
+        <br />
+      </ul>
+    </div>
+    <div class="http1">
+      <h2>HTTP1.1</h2>
+      <ul>
+        <li>
+          So, in 1999, the w3 overseeing body updated the HTTP spec to version
+          1.1. Adding features to the 1.0 specification meant to improve the
+          speed and efficiency of web servers powering this new “hypermedia”
+          version of the web.
+        </li>
+        <br />
+        <li>
+          As I’m sure you’re aware, the web changed a whole lot more between
+          1999 and 2015 than it did between 1996 and 1999, but for those 16
+          years we lived HTTP/1.1 specification
+        </li>
+        <br />
+        <li>
+          The breaking point in HTTP/1.1 was reached well before the 2015
+          introduction of HTTP/2.
+        </li>
+      </ul>
+      <div class="http2">
+        <h2>HTTP2</h2>
+        <ul>
+          <li>
+            Google was working on it’s own replacement for HTTP/1.1 since the
+            early 2010s, called SPDY, SPDY used multiplexing to download
+            multiple resources efficiently over a single connection, and could
+            be “back-ported” to existing applications with a translation layer.
+          </li>
+          <br />
+          <li>
+            In 2015, w3 officially adopted the HTTP/2 specification based on
+            SPDY, and all major browsers began supporting the protocol.
+          </li>
+          <br />
+          <li>
+            Today, the concept of “webpages” is anachronistic,Modern websites
+            function much more like applications, with a constant two-way stream
+            of data being an essential part of their functionality.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
